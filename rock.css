@@ -1,0 +1,40 @@
+.choices{
+    display: flex;
+    justify-content:center;
+}
+img{
+    width: 200px;
+    height: 200px;
+    padding: 3rem;
+    border-radius: 40%;
+    
+}
+h1{
+    text-align: center;
+    font-size: 3rem;
+}
+.score-board{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    font-size: 2rem;
+}
+.choice{
+    border-radius: 50%;
+}
+.choice:hover{
+    background-color: rgb(195, 173, 64);
+    cursor: pointer;
+}
+#result{
+    text-align:center;
+    font-size: 2rem;
+    color: #198a23;
+   background-color: rgb(250, 247, 247);
+   align-items: center;
+   justify-content: center;
+   padding:2rem;
+   margin: 2rem;
+
+}
